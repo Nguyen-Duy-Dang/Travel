@@ -1,0 +1,18 @@
+.introduce{
+    background: #f5f5f5;
+    height: 3vw;
+    display: flex;
+    line-height: 3vw;
+    padding-left: 9vw;
+}
+.introduce a{
+    color: #575454;
+    font-size: 17px;
+    text-decoration: none;
+}
+.gioithieu{
+    margin: 3vw 8vw;
+}
+.gioithieu b{
+    font-size:1.8vw;
+}

@@ -1,0 +1,123 @@
+.news{
+    width: 100%;
+    height: 50vw;
+    
+}
+.box-left{
+    width: 74%;
+    float: left;
+    height: 0 auto;
+   
+}
+.box-right{
+    width: 24%;
+    float: right;
+    height: 0 auto;
+}
+
+.tintuc b{
+    font-size:1.8vw;
+}
+.news-1{
+   margin-top: 1vw;
+   width: 100%;
+   height: 15vw;
+}
+.news-1 img{
+    width: 60%;
+    height: 25vw;
+}
+
+.new-blog p {
+    margin-top: 1.2vw;
+}
+
+
+
+
+
+
+
+.trangcon{
+    margin-top: 1vw;
+}
+.trangcon li{
+    display: block;
+    margin: 0.8vw 0vw;
+    
+}
+.trangcon hr{
+    margin-top: 0.8vw;
+  
+}
+.trangcon a{
+    text-decoration: none;
+    color: #484747;  
+}
+.trangcon a:hover{
+    color: #32aad6;
+
+}
+.news-box{
+    width: 100%;
+}
+
+.news-1-1{
+    margin-top: 1vw;
+    width: 100%;
+    height: 5vw;
+ }
+ .news-1-1 img{
+     width: 32%;
+     float: left;
+ }
+ .new-blog-1{
+     width: 65%;
+     float: right;
+ }
+ .new-blog-1 a{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 1.2vw;
+ }
+ 
+ .new-blog-1 p {
+     margin-top: 0.7vw;
+ }
+ .new-blog-1 a:hover{
+ color: #32aad6 ;
+ 
+ }
+/* .news-1-1{
+    margin-top: 1vw;
+    width: 100%;
+    height: 13vw;
+ }
+.news-box-1{
+    width: 100%;
+    margin-top: 1vw;
+}
+.news-box-1 img{
+    width:30%;
+    float: left;
+}
+.new-blog-1{
+    width: 58%;
+    float: right;
+}
+.new-blog-1 a{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 1.2vw;
+}
+
+.new-blog-1 p {
+    margin-top: 1.2vw;
+}
+.new-blog-1 a:hover{
+color: #32aad6 ;
+
+} */
+

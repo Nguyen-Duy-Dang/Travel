@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Đảm bảo box model chuẩn */
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background: #154054;
+}
+
+.logo {
+    width: 22%;
+    height: 70px;
+    float: left;
+}
+
+.logo img {
+    padding-left: 110px;
+    padding-top: 16px;
+}
+
+.search {
+    width: 43%;
+    height: 70px;
+    float: left;
+}
+
+.search input {
+    margin-top: 16px;
+}
+
+.search-mini-form {
+    width: 75%;
+    height: 35px;
+    padding: 0 20px;
+    outline: none;
+}
+
+.btn-search {
+    width: 15%;
+    height: 37px;
+    background: #32aad6;
+    color: aliceblue;
+    border: none;
+}
+
+.form {
+    width: 35%;
+    height: 70px;
+    float: right;
+    display: flex;
+}
+
+.register-login {
+    width: 57%;
+    height: 70px;
+    padding-left: 180px;
+    line-height: 70px;
+}
+
+.register-login ul {
+    list-style-type: none;
+}
+
+.register-login li {
+    display: inline-block;
+    color: #f1f1f1;
+}
+
+.register-login a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.cart {
+    width: 43%;
+    height: 70px;
+    line-height: 70px;
+}
+
+.cart img {
+    padding-top: 25px;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background: #154054;
+    border-top: 1px solid #32aad6;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding-left: 110px;
+}
+
+.menu li {
+    color: #ffffff;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background: #32aad6;
+    color: #fff;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 400px; /* Hoặc kích thước bạn muốn */
+    overflow: hidden; /* Ẩn phần nội dung vượt ra ngoài */
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh phù hợp với kích thước */
+    object-position: center; /* Căn hình ảnh vào giữa */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.banner img.active {
+    opacity: 1;
+}
+
+img {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
